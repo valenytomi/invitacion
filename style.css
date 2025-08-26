@@ -1,0 +1,239 @@
+@import url("https://use.typekit.net/ram7nfs.css");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+}
+
+h1,
+h3 {
+  font-family: zooja-pro, system-ui, sans-serif;
+  font-weight: 300;
+  color: #fff5eb;
+}
+p,
+h2 {
+  color: #bcb9b8;
+}
+
+h2 {
+  font-weight: 300;
+  font-size: 50px;
+}
+
+body {
+  font-family: crayonize, system-ui, sans-serif;
+  background-color: #fff5eb;
+  color: #fff5eb;
+  width: 450px;
+  height: 100dvh;
+  text-align: center;
+  overflow-x: hidden;
+}
+
+.val-tomi {
+  background-image: url(./img/VALEN-TOMI.jpg);
+  background-size: cover;
+  aspect-ratio: auto;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+  max-width: 450px;
+  min-height: 700px;
+  margin: 0 auto;
+  justify-content: end;
+  z-index: -10;
+}
+
+.val-tomi > div > h1 {
+  font-size: 100px;
+  margin-bottom: -30px;
+}
+.val-tomi > div > p {
+  font-size: 55px;
+  font-weight: lighter;
+  color: #fff5eb;
+}
+.val-tomi > div {
+  margin-bottom: 40px;
+}
+
+.section-faltan {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 450px;
+  max-width: 450px;
+  margin: 0 auto;
+  position: relative;
+}
+.section-faltan > h3 {
+  font-size: 80px;
+  color: #6f7d61;
+  margin-top: 40px;
+}
+.img-flores {
+  position: absolute;
+  top: -30px;
+  right: 0;
+  z-index: 200;
+}
+
+.contador {
+  margin-top: -10px;
+  color: #bcb9b8;
+  display: flex;
+  gap: 5px;
+}
+.contador-numero {
+  font-size: 80px;
+}
+
+.img-vela {
+  position: absolute;
+  aspect-ratio: calc(1405 / 2135);
+  top: 120px;
+  left: 0;
+}
+
+.ceremonia-fiesta {
+  width: 450px;
+  position: relative;
+  max-width: 450px;
+  margin-top: 70px;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+.ceremonia-fiesta > div > h3 {
+  color: #6f7d61;
+  font-size: 60px;
+  text-align: left;
+  line-height: 0.8;
+}
+.ceremonia-fiesta > div > p {
+  font-size: 30px;
+  text-align: left;
+  line-height: 0.8;
+  margin-top: 30px;
+}
+.ceremonia-fiesta > div {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+.link-ubicacion {
+  width: 100px;
+  margin-top: 20px;
+}
+.img-vt-sentados {
+  padding: 17px;
+}
+
+.itinerario {
+  width: 450px;
+  max-width: 450px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  margin-top: 50px;
+}
+.valor {
+  margin-top: 50px;
+}
+
+.valor h2 {
+  margin-top: 25px;
+  margin-bottom: 5px;
+}
+
+.valor p {
+  font-size: 38px;
+  line-height: 0.8;
+}
+
+.img-alias-tarjeta {
+  margin-left: 35px;
+}
+
+.dress-code {
+  margin-top: 35px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.parrafo {
+  margin-top: 30px;
+  font-size: 38px;
+  line-height: 0.8;
+}
+.img-auto {
+  margin-top: 35px;
+}
+
+.regalo {
+  margin-top: 50px;
+}
+.regalo > h3 {
+  color: #6f7d61;
+  font-size: 60px;
+  line-height: 0.8;
+}
+
+.alias-regalo {
+  color: #6f7d61;
+}
+
+.confirma-asistencia {
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+  max-width: 450px;
+  margin-top: 50px;
+  align-items: center;
+}
+
+.confirma-asistencia > div > h3 {
+  color: #6f7d61;
+  font-size: 60px;
+}
+
+.btn-asistencia {
+  margin-top: -10px;
+}
+
+.img-marco {
+  position: relative;
+}
+.info-venis {
+  position: absolute;
+  margin-top: 30px;
+}
+
+.final {
+  background-image: url(./img/manos.png);
+  background-size: cover;
+  width: 100%;
+  max-width: 450px;
+  min-height: 360px;
+  margin-top: 50px;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.final > h3 {
+  color: #fff5eb;
+  font-size: 56px;
+}
+
+@media (min-width: 425px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+}

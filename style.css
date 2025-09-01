@@ -213,6 +213,13 @@ body {
 
 .img-marco {
   position: relative;
+  height: 250px;
+}
+
+.confirma-asistencia .info-venis p {
+  font-size: 1.5rem;
+  line-height: 0.8;
+  margin-top: 0.9rem;
 }
 .info-venis {
   position: absolute;

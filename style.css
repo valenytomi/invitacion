@@ -157,6 +157,10 @@ body {
   line-height: 0.8;
 }
 
+.valor__validez-tarjeta {
+  margin-top: 2rem;
+}
+
 .img-alias-tarjeta {
   margin-left: 35px;
 }
